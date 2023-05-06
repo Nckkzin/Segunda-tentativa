@@ -20,6 +20,26 @@
       <p>Aqui você encontrará informações sobre nossos projetos mais recentes, além de poder conhecer nossa equipe. Para mais informações do projeto use a barra de navegação acima</p>
       <img src="Sinaleiro].png" alt="Imagem do projeto">
       <h2>Nossa equipe</h2>
+      Código usado na programação do sinaleiro: 
+        void setup()
+    {
+      pinMode(13, OUTPUT);
+      pinMode(11, OUTPUT);
+      pinMode(12, OUTPUT);
+     }
+
+       void loop()
+    {
+     digitalWrite(13, HIGH);
+     delay(5000); // Wait for 5000 millisecond(s)
+    digitalWrite(13, LOW);
+    digitalWrite(11, HIGH);
+    delay(3000); // Wait for 3000 millisecond(s)
+    digitalWrite(11, LOW);
+    digitalWrite(12, HIGH);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(12, LOW);
+    }
       <div class="team">
         <div class="team-member">
           <img src="integrante1.jpeg" alt="">
